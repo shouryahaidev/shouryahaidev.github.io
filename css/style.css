@@ -149,8 +149,8 @@ hr
 {
 	font-family: 'Bitter', serif;
 	font-style: italic;
-	color: #e1b12c;
-	opacity: .5;
+	color: #cc7d00;
+	opacity: .6;
 	font-size: 12px;	
 	font-weight: 400;
 	padding: 0px;
@@ -570,6 +570,10 @@ header .container .dropb
 	}
 }
 @media screen and (max-width: 1280px) {
+	.home
+	{
+		height: 780px;
+	}
 	.home .left h1
 	{
 		font-size: 25px;
@@ -577,6 +581,7 @@ header .container .dropb
 	.home .left 
 	{
 		width: 100%;
+		height: 780px;
 	}
 	.home .left h1
 	{
@@ -593,9 +598,9 @@ header .container .dropb
 		height: 0px;
 		overflow: hidden;
 	}
-	.joinus .container
+	.joinus
 	{
-		width: 40%;
+		top: 600px;
 	}
 	.tags
 	{
@@ -803,7 +808,7 @@ header .container .dropb
 @media screen and (max-width: 600px){
 	.joinus
 	{
-		top: 65%;
+		top: 550px;
 	}
 	.joinus .container
 	{
@@ -843,17 +848,13 @@ header .container .dropb
 	}
 }
 @media screen and (max-width: 529px){
-	.home
-	{
-		height: 100%;
-	}
 	.home .left
 	{
 		height: 100%;
 	}
 	.joinus
 	{
-		top: 80%;
+		top: 580px;
 	}
 	.whatvd .content
 	{
@@ -906,5 +907,15 @@ header .container .dropb
 		padding: 0px;
 		margin-left: 15%;
     	margin-right: 15%;	
+    	padding-top: 20px;
+	}
+}
+@media screen and (max-width: 314px){
+	header .container .logo
+	{
+		width: 0px;
+		height: 0px;
+		margin: 0px;
+		padding: 0px;
 	}
 }
