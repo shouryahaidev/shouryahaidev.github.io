@@ -218,74 +218,20 @@ header .container
 	width: 100%;
 	display: inline-block;
 }
-.contact .content
+.contact .bottom
 {
-	width: 70%;
-	-webkit-margin-before: 8%;
-    -webkit-margin-after: 8%;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: justify;
-    font-family: 'Barlow', sans-serif;
-	font-weight: 400;
+	text-align: center;
+	border-top: 1px solid #0000000d;
 	color: #ffffff;
 }
-.contact h4
-{
-	font-size: 30px;
-	font-weight: 500;
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 400;
-	-webkit-margin-before: 15px;
-    -webkit-margin-after: 0px;	
-}
-.contact hr
-{
-	-webkit-margin-before: 15px;
-    -webkit-margin-after: 15px;	
-    color: #ffffff;
-}
-.contact .content .left
-{
-	float: left;
-	-webkit-margin-after: 15%;
-	line-height: 20px;
-	padding: 20px;
-}
-.contact .content .left .social a
-{
-	text-decoration: none;
-	color: #ffffff;
-	-webkit-transition: .5s ease; /* Safari */
-    transition: .5s ease;
-    padding-bottom: 2px;
-    border-bottom: 2px solid #ffffff;
-}
-.contact .content .left .social a:hover
-{
-	color: #ffffffa1;
-	border-bottom: 2px solid #ffffffa1;
-}
-.contact .content .right
-{
-	width: 40%;
-	float: right;
-	-webkit-margin-after: 15%;
-	border-left: 2px solid #ffffff;
-	padding: 20px;
-}
-.contact .content .right h4
+.contact .bottom h4
 {
 	font-size: 15px;
+	padding: 30px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
 	-webkit-margin-before: 0px;
-	-webkit-margin-after: 10px;
-}
-.contact .content .right h4 i
-{
-	font-size: 10px;
-	padding: 1px;
-	position: relative;
-	bottom: 2px;
+    -webkit-margin-after: 0px;
 }
 header .container .dropb
 {
@@ -298,44 +244,21 @@ header .container .dropb
 	overflow: hidden;
 }
 
-@media screen and (max-width: 1540px) {
-	.home .left h1
+@media screen and (max-width: 1490px) {
+	.team .content
 	{
-		font-size: 30px;
+		width: 65%;
+	    margin-left: 17.5%;
+	    margin-right: 17.5%;
 	}
 }
 @media screen and (max-width: 1280px) {
-	.home
+	
+	.team .content
 	{
-		height: 780px;
-	}
-	.home .left h1
-	{
-		font-size: 25px;
-	}
-	.home .left 
-	{
-		width: 100%;
-		height: 780px;
-	}
-	.home .left h1
-	{
-		font-size: 25px;
-	}
-	.home .left .container
-	{
-		-webkit-margin-before: 25%;
-    	-webkit-margin-after: 20%;
-	}
-	.home .right
-	{
-		width: 0px;
-		height: 0px;
-		overflow: hidden;
-	}
-	.joinus
-	{
-		top: 600px;
+		width: 75%;
+	    margin-left: 12.5%;
+	    margin-right: 12.5%;
 	}
 	.tags
 	{
@@ -376,130 +299,40 @@ header .container .dropb
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
-	.joinus .container
-	{
-		width: 50%;
-		margin-left: 25%;
-		margin-right: 25%;
-	}
+	
 }
 
-@media screen and (max-width: 970px){
-
-	.contact .content
+@media screen and (max-width: 1160px){
+	.box
 	{
-		width: 80%;
-		margin: 10%;
-		padding: 0px;
+		margin-right: 40px;
+		margin-left: 40px;
 	}
-	.contact .content .right
-	{
-		width:50%; 
-		border-left: 0px solid #000;
-		float: inherit;
-		padding-left: 5%;
-		padding-right: 5%;
-		margin-left: 20%;
-		margin-right:20%;
-		border-top: 2px solid #ffffff;
-	}
-	.contact .content .left
-	{
-		width:50%; 
-		border-left: 0px solid #000;
-		float: inherit;
-		padding-left: 5%;
-		padding-right: 5%;
-		margin-left: 20%;
-		margin-right: 20%;
-		-webkit-margin-after: 2%;
-	}
+	
 }
 
-@media screen and (max-width: 748px){
-
-	.contact .content
+@media screen and (max-width: 930px){
+	.box
 	{
-		width: 80%;
-		margin: 10%;
-		padding: 0px;
-	}
-	.contact .content .right
-	{
-		width:60%; 
-		margin-left: 15%;
-		margin-right: 15%;
-	}
-	.contact .content .left
-	{
-		width:60%; 
-		margin-left: 15%;
-		margin-right: 15%;
-	}
-	.joinus .container
-	{
-		width: 70%;
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-right: 30px;
+		margin-left: 30px;
 	}
 }
-@media screen and (max-width: 630px){
-
-	.contact .content
+@media screen and (max-width: 860px){
+	.box
 	{
-		width: 80%;
-		margin: 10%;
-		padding: 0px;
+		margin-right: 50px;
+		margin-left: 50px;
 	}
-	.contact .content .right
-	{
-		width:80%; 
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-	.contact .content .left
-	{
-		width:80%; 
-		margin-left: 5%;
-		margin-right: 5%;
-	}
+	
 }
 
 
-@media screen and (max-width: 600px) {
-	.home .left 
+@media screen and (max-width: 690px) {
+	.box
 	{
-		width: 100%;
-	}
-	.home .left h1
-	{
-		font-size: 25px;
-	}
-	.home .left .container
-	{
-		-webkit-margin-before: 25%;
-    	-webkit-margin-after: 20%;
-	}
-	.home .right
-	{
-		width: 0px;
-		height: 0px;
-		overflow: hidden;
-	}
-	.joinus .container
-	{
-		width: 70%;
-		margin-left: 15%;
-		margin-right: 15%;
-	}
-	.joinus .container .jteam
-	{
-		width: 40%;
-	}
-	.joinus .container .likeus
-	{
-		width: 55%;
-		float: auto;
+		margin-right: 35px;
+		margin-left: 35px;
 	}
 	.tags
 	{
@@ -541,37 +374,16 @@ header .container .dropb
 
 }
 @media screen and (max-width: 600px){
-	.joinus
+	.team .content
 	{
-		top: 550px;
+		width: 80%;
+	    margin-left: 10%;
+	    margin-right: 10%;
 	}
-	.joinus .container
+	.box
 	{
-		width: 70%;
-		height: 115px;
-		margin-left: 15%;
-		margin-right: 15%;
-	}
-	.joinus .container .jteam
-	{
-		width: 100%;
-		display: inline-block;
-		border-left: 0px;
-		font-size: 14px;
-		border-top: 2px solid #0000001a;
-		-webkit-padding-before: 20px;
-    	-webkit-padding-after: 20px;
-    	-webkit-margin-before: 0px;
-    	-webkit-margin-after: 0px;
-	}
-	.joinus .container .likeus
-	{
-		width: 100%;
-		font-size: 14px;
-		-webkit-padding-before: 20px;
-    	-webkit-padding-after: 20px;
-    	-webkit-margin-before: 0px;
-    	-webkit-margin-after: 0px;
+		margin-right: 15px;
+		margin-left: 15px;
 	}
 }
 @media screen and (max-width: 570px){
@@ -583,67 +395,10 @@ header .container .dropb
 	}
 }
 @media screen and (max-width: 529px){
-	.home .left
-	{
-		height: 100%;
-	}
-	.joinus
-	{
-		top: 580px;
-	}
-	.whatvd .content
-	{
-		width: 70%;
-	    margin-left: 15%;
-	    margin-right: 15%;
-	}
-	.whatvd .content .box
-	{
-		width: 100%;
-	}
-	.about .content
-	{
-		width: 70%;	
-	    margin-left: 15%;
-	    margin-right: 15%;
-	}
-	.contact .content .right
-	{
-		width: 100%;
-		padding: 0px;
-		padding-top: 50px; 
-	}
-	.contact .content .left
-	{
-		width: 100%;
-		padding: 0px;
-		padding-top: 30px; 
-		padding-bottom: 50px;
-	}
-	.contact .content
-	{
-		width: 80%;
-	    margin-left: 10%;
-	    margin-right: 10%;
-	    text-align: left;
-	}
+	
 }	
 @media screen and (max-width: 380px){
-	.home
-	{
-		width: 100%;
-		padding: 0px;
-		margin: 0px;
-	}
-	.home .left .container
-	{
-		
-		width:70%;
-		padding: 0px;
-		margin-left: 15%;
-    	margin-right: 15%;	
-    	padding-top: 20px;
-	}
+	
 }
 @media screen and (max-width: 314px){
 	header .container .logo
