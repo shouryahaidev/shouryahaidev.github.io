@@ -181,7 +181,11 @@ header .container
 }
 #anupreet
 {
+<<<<<<< HEAD
 	background: url(img/anupreet.png);
+=======
+	background: url('img/anupreet.JPG');
+>>>>>>> ce16b5f956de2ff7189e291fde25e1b1c8dda9d3
 	background-size: cover;
 }
 #pranav
