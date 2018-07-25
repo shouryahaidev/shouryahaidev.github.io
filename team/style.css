@@ -181,7 +181,7 @@ header .container
 }
 #anupreet
 {
-	background: url(img/anupreet.JPG);
+	background: url('img/anupreet.JPG');
 	background-size: cover;
 }
 #pranav
