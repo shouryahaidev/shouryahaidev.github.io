@@ -1,0 +1,537 @@
+::-webkit-scrollbar 
+{
+	width: 10px; 
+}
+
+::-webkit-scrollbar-track 
+{
+	background: #dfe6e9; 
+}
+
+::-webkit-scrollbar-thumb 
+{
+	background: #b2bec3; 
+}
+
+::selection
+{
+	background: #000;
+	color: #FFF; 
+}
+
+body,html
+{
+	margin: 0px;
+	width: 100%;
+	min-width: 350px;
+}
+header
+{
+	height: 80px;
+	width: 100%;
+	z-index: 1000;
+	position: fixed;
+	-webkit-transition: .5s ease; /* Safari */
+    transition: .5s ease;
+    border-bottom: 1px solid #ffffff4f;
+}
+.mid
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+hr
+{
+	width: 80px;
+	color: #ffffff;
+	border-width: 6px;
+	border-style: dotted;
+	border-bottom: 0px;
+	-webkit-margin-before: 10px;
+    -webkit-margin-after: 80px;
+	align-self: center;
+}
+.tags
+{
+	float: right;
+	padding: 28px;
+	margin-right: 50px;
+	-webkit-transition: 1s ease; /* Safari */
+    transition: 1s ease;
+}
+.tags a
+{
+	
+	margin: 5px;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 13px;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	border-radius: 15px;
+	-webkit-transition: .5s ease; /* Safari */
+    transition: .5s ease;
+}
+.tags a:hover
+{
+	background: #ffffff;	
+	color: rgb(47, 54, 64);
+	box-shadow: 0px 0px 30px 2px #3768b48a;
+}
+.logo
+{
+	width: 150px;
+	height: 100%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 75px;
+	background: url('img/logo.png');
+	background-size: contain;	
+	background-repeat: no-repeat;		
+}
+header .container
+{
+	width: 96%;
+	height: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.home
+{
+	width: 100%;
+	background-image: url('img/back.png');
+	background-size: cover;
+	border-bottom: 8px solid #add7f2;
+}
+.home .container
+{
+    padding-top: 100px;
+    text-align: center;
+}
+.home .container h1
+{
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 8px;
+	font-weight: 400;
+	font-size: 40px;	
+	color: #ffffff;
+	-webkit-margin-before: 50px;
+    -webkit-margin-after: 2px;
+}
+
+.team
+{
+	width: 100%;
+	background: #ffffff;
+	display: inline-block;
+}
+.team .content
+{
+	width: 55%;
+	-webkit-margin-before: 10%;
+    -webkit-margin-after: 10%;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+	font-weight: 400;
+}
+
+
+.team .content h4
+{
+	font-size: 30px;
+	letter-spacing: 4px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: .4em;
+}
+.team .content hr
+{
+	color: #000;
+	align-self: left;
+	-webkit-margin-start: 0px;
+    -webkit-margin-end: auto;
+}
+
+.box
+{
+	width: 150px;
+	height: 150px;
+	background: url(img/def.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 100px;
+	overflow: hidden;
+	border:4px solid #e2e2e2;
+	display: inline-block;
+	margin: 60px;
+}
+
+#gitanjali
+{
+	background: url(img/gitanjali.jpg);
+	background-size: cover;
+}
+#anupreet
+{
+	background: url(img/anupreet.png);
+	background-size: cover;
+}
+#pranav
+{
+	background: url(img/pranav.jpg);
+	background-size: cover;
+}
+
+#mankaran
+{
+	background: url(img/mankaran.jpg);
+	background-size: cover;
+}
+#ritvik
+{
+	background: url(img/ritvik.png);
+	background-size: cover;
+}
+#naman
+{
+	background: url(img/naman.jpg);
+	background-size: cover;
+}
+#moksh
+{
+	background: url(img/moksh.jpg);
+	background-size: cover;
+}
+#sudhanshu
+{
+	background: url(img/sudhanshu.jpg);
+	background-size: cover;
+}
+#yogesh
+{
+	background: url(img/yogesh.jpg);
+	background-size: cover;
+}
+#shourya
+{
+	background: url(img/shourya.png);
+	background-size: cover;
+}
+#deepak
+{
+	background: url(img/deepak.jpg);
+	background-size: cover;
+}
+#aavriti
+{
+	background: url(img/aavriti.jpg);
+	background-size: cover;
+}
+#arunav
+{
+	background: url(img/arunav.jpg);
+	background-size: cover;
+}
+#tushar
+{
+	background: url(img/tushar.jpg);
+	background-size: cover;
+}
+#hardik
+{
+	background: url(img/hardik.jpg);
+	background-size: cover;
+}
+#rahul
+{
+	background: url(img/rahul.jpg);
+	background-size: cover;
+}
+#mayank
+{
+	background: url(img/mayank.jpg);
+	background-size: cover;
+}
+#sanchit
+{
+	background: url(img/sanchit.jpg);
+	background-size: cover;
+}
+#amaan
+{
+	background: url(img/amaan.jpg);
+	background-size: cover;
+}
+#sharad
+{
+	background: url(img/sharad.jpg);
+	background-size: cover;
+}
+
+.box .container
+{
+	height: 150px;
+	width: 150px;
+	background: #ffffffa8;
+	-webkit-transition: .5s ease; /* Safari */
+    transition: .5s ease;
+    text-align: center;
+    padding-top:auto;
+    padding-bottom: auto;
+    display: table;
+}
+.box .container h4
+{
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	-webkit-padding-before: 5px;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    background: #e2e2e291;
+}
+.box .container h5
+{
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Gudea', sans-serif;
+	font-style: italic;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-padding-after: 5px;
+     background: #e2e2e291;
+}
+.box .container .mid
+{
+	display: table-cell;
+	width: 200px;
+    vertical-align: middle;
+}
+.box .container:hover
+{
+	opacity: 0;
+}
+.contact
+{
+	background: #121b24;
+	width: 100%;
+	display: inline-block;
+}
+.contact .bottom
+{
+	text-align: center;
+	border-top: 1px solid #0000000d;
+	color: #ffffff;
+}
+.contact .bottom h4
+{
+	font-size: 15px;
+	padding: 30px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+header .container .dropb
+{
+	font-size: 20px;
+	color: #ffffff;
+	float: right;
+	padding: 0px;
+	opacity: .9;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 1540px) {
+	.team .content
+	{
+		width: 65%;
+	    margin-left: 17.5%;
+	    margin-right: 17.5%;
+	}
+}
+@media screen and (max-width: 1300px) {
+	.team .content
+	{
+		width: 70%;
+	    margin-left: 15%;
+	    margin-right: 15%;
+	}
+}
+@media screen and (max-width: 1280px) {
+	
+	.team .content
+	{
+		width: 75%;
+	    margin-left: 12.5%;
+	    margin-right: 12.5%;
+	}
+	.tags
+	{
+		max-height:0px;
+		width: 100%;
+		text-align: center;
+		padding: 0px;
+		overflow: hidden;
+		float: right;
+		padding: 0px;
+		margin: 0px;
+		background:#f5f6fa;
+		position: fixed;
+		top: 80px;
+	}
+		.tags a:hover
+	{
+		box-shadow: 0px 0px 0px 0px; 
+	}
+	header .container .dropb
+	{
+		width: 40px;
+		height: 100%;
+		padding-right: 40px;
+		display: table;
+	}
+	header .container
+	{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	.tags a
+	{
+		width: 49%;
+		display: inline-block;
+		background:#f5f6fa;
+		margin: 0px;	
+		padding: 0px;
+		border-radius: 0px;
+		color: #000000ad;
+		font-size: 18px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 1160px){
+	.box
+	{
+		margin-right: 40px;
+		margin-left: 40px;
+	}
+	
+}
+
+@media screen and (max-width: 930px){
+	.box
+	{
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+}
+@media screen and (max-width: 860px){
+	.box
+	{
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+	
+}
+
+
+@media screen and (max-width: 690px) {
+	.box
+	{
+		margin-right: 35px;
+		margin-left: 35px;
+	}
+	
+
+}
+@media screen and (max-width: 600px){
+	.team .content
+	{
+		width: 80%;
+	    margin-left: 10%;
+	    margin-right: 10%;
+	}
+	.box
+	{
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	.tags
+	{
+		width: 100%;
+		text-align: center;
+		padding: 0px;
+		overflow: hidden;
+		float: right;
+		padding: 0px;
+		margin: 0px;
+		background:#f5f6fa;
+	}
+	header .container
+	{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	.tags a
+	{
+		width: 100%;
+		display: inline-block;
+		background:#f5f6fa;
+		margin: 0px;	
+		padding: 0px;
+		border-radius: 0px;
+		color: #000000ad;
+		font-size: 18px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+@media screen and (max-width: 570px){
+	.home .left h1
+	{
+		
+		letter-spacing: 8px;
+		font-size: 20px;	
+	}
+	header .logo
+	{
+		margin-left: 40px; 
+	}
+	header .container .dropb
+	{
+		padding-right: 20px;
+	}
+}
+@media screen and (max-width: 529px){
+	
+}	
+@media screen and (max-width: 380px){
+	header .container .logo
+	{
+		width: 0px;
+		height: 0px;
+		margin: 0px;
+		padding: 0px;
+	}
+	header .container .dropb
+	{
+		padding-right: 20px;
+	}
+}
+@media screen and (max-width: 344px){
+	
+}
